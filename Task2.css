@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./santoor.jpeg");
+  background-position: contain;
+}
+
+nav {
+  height: 10%;
+  display: flex;
+}
+
+#one {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+}
+
+#one>a{
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#one>a:hover {
+  color: #fa2d64;
+}
+
+#two {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#three {
+  flex-basis: 25%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+i {
+  font-size: 18px;
+}
+
+#price {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#quantity {
+  background-color: #fff;
+  color: #fa2d64;
+  height: 18px;
+  width: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 10px;
+  position: relative;
+  bottom: 10px;
+  right: 20px;
+}
+
+header {
+  height: 90%;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 30px;
+  color: white;
+}
+
+header>p {
+  text-transform: uppercase;
+}
+
+header>h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h1::selection,p::selection {
+  color: black;
+  background-color: #fa2d64;
+}
+
+header button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: 1px solid white;
+  color: white;
+  font-weight: 500;
+  background-color: transparent;
+}
